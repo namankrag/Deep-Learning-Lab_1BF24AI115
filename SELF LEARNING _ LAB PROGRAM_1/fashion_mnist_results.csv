@@ -1,0 +1,13 @@
+Experiment,Model,Optimizer,LR schedule,Learning rate,Dropout,L2 weight decay,Data augmentation,Best epoch,Epochs run,Early stopped,Validation accuracy,Test accuracy,Test loss
+sgd_momentum_constant,plain,sgd_momentum,constant,0.05,0.0,0.0,False,8,8,False,0.846,0.838,0.4841018795967102
+sgd_momentum_step,plain,sgd_momentum,step,0.05,0.0,0.0,False,7,8,False,0.854,0.8425,0.4263591742515564
+adam_constant,plain,adam,constant,0.001,0.0,0.0,False,5,8,True,0.85,0.8515,0.4220761516094208
+adam_step,plain,adam,step,0.001,0.0,0.0,False,7,8,False,0.852,0.8425,0.42093412709236144
+rmsprop_constant,plain,rmsprop,constant,0.001,0.0,0.0,False,5,8,True,0.805,0.824,0.5380959944725037
+rmsprop_step,plain,rmsprop,step,0.001,0.0,0.0,False,7,8,False,0.832,0.8315,0.4833386614322662
+regularization_baseline,plain,adam,constant,0.001,0.0,0.0,False,5,8,True,0.85,0.8515,0.4220761516094208
+dropout_0.3,plain,adam,constant,0.001,0.3,0.0,False,12,12,False,0.865,0.842,0.4493353805541992
+L2_weight_decay_1e-4,plain,adam,constant,0.001,0.0,0.0001,False,9,12,True,0.863,0.846,0.44484272027015687
+data_augmentation,plain,adam,constant,0.001,0.0,0.0,True,11,12,False,0.83,0.806,0.5233285880088806
+plain_mlp,plain,adam,constant,0.001,0.0,0.0,False,5,8,True,0.85,0.8515,0.4220761516094208
+residual_mlp,residual,adam,constant,0.001,0.0,0.0,False,9,12,True,0.868,0.8535,0.4396315817832947
