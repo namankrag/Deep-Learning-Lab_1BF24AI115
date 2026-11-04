@@ -1,6 +1,6 @@
 # Deep Learning Lab — Self Learning | Lab Program 1
 
-**Student:** Naman K R A G  
+**Student:** Naman Kumar Agrawal
 **USN:** 1BF24AI115  
 **Course:** Deep Learning Lab  
 **Repository:** [Deep-Learning-Lab_1BF24AI115](https://github.com/namankrag/Deep-Learning-Lab_1BF24AI115)
